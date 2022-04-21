@@ -8,17 +8,42 @@ export default function NewsCard() {
 
     return (
         <div>
-          
-            <Grid container spacing={2}>
-                <Grid item xs={4}>
+            <Grid container spacing={1} columns={4}>
+
+                <Grid item xs={2}
+                    container
+                    direction="row-reverse"
+                    justifyContent="center"
+                    alignItems="center">
                     <CardMedia 
                         component="img"
-                        image={sampleResponse.urlToImage}
-                        />
+                        image={sampleResponse.urlToImage}/>
+                </Grid>
+
+                <Grid item xs={3}  rowSpacing={1}>
+
+                    <Grid container direction="column" item> 
+
+                        <CardContent item>
+                            <Typography variant="h5">
+                                {sampleResponse.title}
+                            </Typography>
+                            <Typography variant="overline">
+                                {sampleResponse.source.name} - {sampleResponse.author}
+                            </Typography>
+                        </CardContent>
+
+                        <CardContent item>
+                            <Typography variant="body2">
+                                {sampleResponse.description}
+                            </Typography>
+                        </CardContent>
+                        
+                    </Grid>
+
                 </Grid>
 
             </Grid>
-
         </div>
     )
 }
