@@ -1,13 +1,37 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import { Container } from '@mui/material';
-import styles from '../styles/Home.module.css'
+import Box from '@mui/material/Box';
 import NewsCard from '../components/NewsCard'
+import TrendingBar from '../components/TrendingBar';
+import styles from '../styles/Home.module.css'
+import { useAppContext } from '../context/AppContext';
+
+import NewsData from '../sample_data/news'
+
 export default function Home() {
+  const { state }= useAppContext();
+
+  const sampleResponses = NewsData.articles
+
+  const cardContainersx = {
+    display: 'flex',
+    flexDirection: 'column'
+  }
+
   return (
     <div className={styles.container}>
-      <Container style={{"border": "1px red solid"}} maxWidth={"xl"}>
-        <NewsCard />
+      <Container maxWidth={"xl"}>
+        
+        <TrendingBar />
+
+        <Box sx={cardContainersx}>
+          {sampleResponses.map((article, key) => {
+              const liked = state["savedArticles"].some(a => a.url === article.url)
+                return (
+                  <NewsCard key={key} article={article} liked={liked}/>
+                  )
+              })}
+        </Box>
+        
       </Container>
 
     </div>
