@@ -54,7 +54,7 @@ export default {
     "publishedAt": "2022-04-15T13:58:20Z",
     "content": "https://sputniknews.com/20220415/tesla-denies-reports-of-plant-reopening-in-shanghai-in-mid-may-reports-say-1094792144.html\r\nTesla Denies Reports of Plant Reopening in Shanghai in Mid-May, Reports Sa… [+1902 chars]"
     },
-    -{
+    {
     "source": {
     "id": null,
     "name": "Business Today"
@@ -106,7 +106,7 @@ export default {
     "publishedAt": "2022-04-15T13:38:13Z",
     "content": "Elon Musk has offered to buy all of Twitter for around $43 billion, but the board has reportedly already stated that theyre not interested.\r\nIn an updated SEC filing, Tesla CEO Elon Musk has made his… [+1283 chars]"
     },
-    -{
+    {
     "source": {
     "id": null,
     "name": "CarScoops"
@@ -196,19 +196,6 @@ export default {
     "urlToImage": "https://g.foolcdn.com/editorial/images/674365/businesswoman-charging-a-blue-electric-car.jpg",
     "publishedAt": "2022-04-15T13:21:00Z",
     "content": "The electric vehicle industry is in its early growth stage. It is witnessing rapid advancements in key areas such as battery costs, efficiency, range of vehicles, self-driving features, cost of vehic… [+2820 chars]"
-    },
-    -{
-    "source": {
-    "id": null,
-    "name": "Freerepublic.com"
-    },
-    "author": "Patriot Watchdog",
-    "title": "Biden Regime Launches INVESTIGATION Into Elon Musk",
-    "description": "Elon Musk is now under joint investigation by the U.S. Securities and Exchange Commission (SEC) and Department of Justice (DOJ) after making a move to buy Twitter and presumably restore free speech on the monolithic social media platform.",
-    "url": "https://freerepublic.com/focus/f-bloggers/4055259/posts",
-    "urlToImage": null,
-    "publishedAt": "2022-04-15T13:20:14Z",
-    "content": "Skip to comments.\r\nBiden Regime Launches INVESTIGATION Into Elon MuskPatriot Watchdog ^\r\n | 4/14/2022\r\n | Staff\r\nPosted on 04/15/2022 6:20:14 AM PDT by Bon of Babble\r\nElon Musk is now under joint inv… [+5190 chars]"
     },
     {
     "source": {
