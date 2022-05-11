@@ -1,4 +1,4 @@
-import { blueGrey } from '@mui/material/colors';
+import { blueGrey, grey } from '@mui/material/colors';
 
 const components = {
     MuiCardContent: {
@@ -13,10 +13,17 @@ const components = {
 
 export default {
     palette: {
-        primary:blueGrey
+        primary: blueGrey,
+        secondary: {
+            main: grey[500],
+            dark: grey[900]
+        }
     },
     shape: {
         borderRadius: 28
+    },
+    typography: {
+        fontFamily: ["courier-prime", "monospace"]
     },
     components: components,
 }
